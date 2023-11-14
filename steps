@@ -1,0 +1,8 @@
+Step 1 – install using yum
+
+sudo yum install open-vm-tools
+
+Step 2 – start vmtoolsd service and enable at boottime
+
+systemctl start vmtoolsd.service
+systemctl enable vmtoolsd.service
